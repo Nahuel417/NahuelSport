@@ -1,0 +1,7 @@
+.flecha {
+    transition: all 0.3s ease-in-out;
+}
+
+.caja-flecha:hover .flecha {
+    transform: rotate(90deg);
+}

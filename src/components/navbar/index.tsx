@@ -1,14 +1,13 @@
 import React from 'react';
 import NavSup from './NavSup';
-import Logo from './Logo';
-import NavLinks from './NavLinks';
+import Navbar from './Navbar';
 
 export const index: React.FC = () => {
     return (
         <>
             <NavSup />
             {/* <Logo /> */}
-            <NavLinks />
+            <Navbar />
             {/* hola */}
             {/* <div className="border-2 border-red-500 p-5 flex justify-between">
             </div> */}
