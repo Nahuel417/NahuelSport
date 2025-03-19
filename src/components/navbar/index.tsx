@@ -7,12 +7,11 @@ export const index: React.FC = () => {
     return (
         <>
             <NavSup />
-            <div className="border-2 border-red-500 p-5 flex justify-between ">
-                <Logo />
-                <NavLinks />
-                hola
-            </div>
-            ;
+            {/* <Logo /> */}
+            <NavLinks />
+            {/* hola */}
+            {/* <div className="border-2 border-red-500 p-5 flex justify-between">
+            </div> */}
         </>
     );
 };
